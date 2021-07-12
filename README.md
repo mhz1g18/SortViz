@@ -3,7 +3,7 @@
 This project aims to visualize how various sorting algorithms work
 
 ### `Try it`
-https://github.com/mhz1g18/SortViz
+https://mhz1g18.github.io/SortViz/
 
 ## Features
 * Visualize total swaps, comparison and speed of an algorithm
