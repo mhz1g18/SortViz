@@ -1,4 +1,5 @@
 {
+  "homepage": "http://mhz1g18.github.io/SortViz",
   "name": "sort-viz",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "zustand": "^3.5.6"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
