@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import { NavBar } from "./components/NavBar";
+import { Footer } from "./components/Footer";
+import { Controller } from "./components/Controller";
+import { AlgoDisplay } from "./components/AlgoDisplay";
 
-function App() {
+const Container = styled.div`
+  margin: 0 10px;
+  min-height: calc(100vh - 50px);
+  position: relative;
+  margin-bottom: 50px;
+`;
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <NavBar />
+      <Controller />
+      <AlgoDisplay />
+      <Footer />
+    </Container>
   );
 }
-
-export default App;
