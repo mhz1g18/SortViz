@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SortViz/static/css/main.40d81610.chunk.css",
+    "main.js": "/SortViz/static/js/main.bb403341.chunk.js",
+    "main.js.map": "/SortViz/static/js/main.bb403341.chunk.js.map",
+    "runtime-main.js": "/SortViz/static/js/runtime-main.f048451f.js",
+    "runtime-main.js.map": "/SortViz/static/js/runtime-main.f048451f.js.map",
+    "static/js/2.0f6b95b4.chunk.js": "/SortViz/static/js/2.0f6b95b4.chunk.js",
+    "static/js/2.0f6b95b4.chunk.js.map": "/SortViz/static/js/2.0f6b95b4.chunk.js.map",
+    "static/js/3.d2f78f84.chunk.js": "/SortViz/static/js/3.d2f78f84.chunk.js",
+    "static/js/3.d2f78f84.chunk.js.map": "/SortViz/static/js/3.d2f78f84.chunk.js.map",
+    "index.html": "/SortViz/index.html",
+    "static/css/main.40d81610.chunk.css.map": "/SortViz/static/css/main.40d81610.chunk.css.map",
+    "static/js/2.0f6b95b4.chunk.js.LICENSE.txt": "/SortViz/static/js/2.0f6b95b4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f048451f.js",
+    "static/js/2.0f6b95b4.chunk.js",
+    "static/css/main.40d81610.chunk.css",
+    "static/js/main.bb403341.chunk.js"
+  ]
+}
